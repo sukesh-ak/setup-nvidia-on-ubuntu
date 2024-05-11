@@ -13,7 +13,10 @@ curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && s
 ## 3. Install Cuda Toolkit
 Link to installer is [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=runfile_local)
 
-```bash
+```
+# Make sure to shutdown the desktop gui
+$ sudo service gdm stop
+
 $ wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_550.54.15_linux.run
 $ sudo sh ./cuda_12.4.1_550.54.15_linux.run
 ```
@@ -21,6 +24,9 @@ $ sudo sh ./cuda_12.4.1_550.54.15_linux.run
 ```bash
 $ sudo sh ./cuda_12.4.1_550.54.15_linux.run --silent --driver
 ```
+
+_Make sure `/usr/local/cuda-12.4/bin` is in the path for Cuda compiler (`nvcc`) to be accessible._  
+_You can add it to `~/.profile` like `PATH="/usr/local/cuda-12.4/bin:$PATH"` at the end._
 
 ## 4. Install CUDNN
 Link to installer is [here](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_network)
