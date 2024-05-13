@@ -1,7 +1,12 @@
-# How to setup nvidia drivers, cuda, cudnn and Nvidia docker container toolkit on ubuntu
+# How to setup nVidia GPU on Ubuntu
 Install &amp; Setup Nvidia drivers, cuda, cudnn and Nvidia docker container toolkit on Ubuntu.  
-_Please keep in mind this was setup for nVidia RTX 3080/4060.   
+
+> [!IMPORTANT]  
+> _Please keep in mind this was setup for nVidia RTX 3080/4060.   
 If your GPU model is different you need to get the correct commands from the link provided on each step_
+
+
+
 
 ## Pre-requisite
 1. Install Ubuntu Desktop (or Server)
