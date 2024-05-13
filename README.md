@@ -30,7 +30,8 @@ $ sudo sh ./cuda_12.4.1_550.54.15_linux.run
 $ sudo sh ./cuda_12.4.1_550.54.15_linux.run --silent --driver
 ```
 
-_Make sure `/usr/local/cuda-12.4/bin` is in the path for Cuda compiler (`nvcc`) to be accessible._  
+> [!NOTE]  
+> _Make sure `/usr/local/cuda-12.4/bin` is in the path for Cuda compiler (`nvcc`) to be accessible._  
 _You can add it to `~/.profile` like `PATH="/usr/local/cuda-12.4/bin:$PATH"` at the end._
 
 ## 4. Install CUDNN
