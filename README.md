@@ -2,7 +2,7 @@
 Install &amp; Setup nVidia drivers, Cuda, Cudnn and nVidia docker container toolkit on Ubuntu.  
 
 > [!IMPORTANT]  
-> _Please keep in mind this was setup for nVidia RTX 3080/4060.   
+> _Please keep in mind this was setup for nVidia RTX 3080/4060 with `12.4.1`   
 If your GPU model is different you need to get the correct commands from the link provided on each step_
 
 
