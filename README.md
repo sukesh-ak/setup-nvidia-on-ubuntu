@@ -59,3 +59,8 @@ $ sudo apt-get install -y nvidia-container-toolkit
 $ sudo nvidia-ctk runtime configure --runtime=docker
 $ sudo systemctl restart docker
 ```
+## 6. Run a sample Cuda Container for testing
+
+```bash
+$ sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+```
