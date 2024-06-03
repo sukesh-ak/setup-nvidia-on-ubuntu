@@ -1,4 +1,4 @@
-# How to setup nVidia GPU on Ubuntu
+# How to setup NVidia GPU on Ubuntu
 Install &amp; Setup nVidia drivers, Cuda, Cudnn and nVidia docker container toolkit on Ubuntu.  
 
 > [!IMPORTANT]  
